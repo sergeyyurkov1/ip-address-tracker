@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .h4 {
+    @apply mb-1 text-xs font-medium text-dark-gray md:text-sm;
+    text-transform: uppercase;
+  }
+}
+
+@layer components {
+  .p {
+    @apply text-xl font-bold md:text-2xl;
+  }
+}
